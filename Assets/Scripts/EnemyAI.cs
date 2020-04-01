@@ -56,6 +56,7 @@ public class EnemyAI : MonoBehaviour
     {
         GetComponent<Animator>().SetBool("attack", true);
         
+        
     }
 
     void OnDrawGizmosSelected()
